@@ -1,0 +1,17 @@
+#########################################################
+###       RANCHER PROJECTS and K8S NAMESPACES         ###
+#########################################################
+projects:
+ project1:
+  - namespace1
+ project2:
+  - namespace2
+  - namespace3
+ chartmuseum
+  - chartmuseum
+
+#########################################################
+###              RANCHER APPS' CONFIGS                ###
+#########################################################
+chartmuseum_app_name: chartmuseum
+chartmuseum_namespace: chartmuseum
